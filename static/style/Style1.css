@@ -1,0 +1,16 @@
+@keyframes lights {
+    0%, 100% {
+      background: linear-gradient(to bottom, #ff3399, #ffcc33, #99ff33, #3399ff, #9933ff);
+      background-size: 500% 500%;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      text-shadow: none;
+    }
+    50% {
+      background: none;
+      bgcolor:black;
+      -webkit-text-fill-color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  }
+  
